@@ -3,6 +3,8 @@ library(Rcpp) # Para cargar código en C++. sourceCpp
 
 # Cargamos función para estimar el modelo con descenso del gradiente
 sourceCpp("logitGD.cpp")
+# El objetivo de este código es la estimación y predicción para modelos con una gran cantidad
+# de variables explicativas, no calcula las varianzas de los coeficientes.
 
 ## Datos ficticios
 N <- 2000 # Num. de observaciones
