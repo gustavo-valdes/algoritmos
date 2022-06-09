@@ -1,1 +1,1 @@
-# algoritmos
+# Econometría
